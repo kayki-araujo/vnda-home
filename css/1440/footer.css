@@ -1,0 +1,84 @@
+@media screen and (max-width: 1440px) {
+  .newsletter_container {
+    display: flex;
+    justify-content: space-between;
+    width: 1312px;
+  }
+
+  .logo_textContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .foot_logo_container {
+    width: 413px;
+    height: 207px;
+  }
+
+  .footer_social_container {
+    justify-content: center;
+    width: 1312px;
+  }
+
+  .newsletter_text {
+    margin-left: 7%;
+  }
+
+  .newsletter_input {
+    width: 245px;
+    height: 48px;
+  }
+
+  .newsletter_button {
+    width: 153px;
+    height: 48px;
+  }
+
+  .empresa {
+    width: 301px;
+  }
+
+  .space-foot {
+    width: 301px;
+  }
+
+  .footer_columns {
+    display: flex;
+    justify-content: space-between;
+    width: 1312px;
+  }
+
+  .footer_columns_1 {
+    border-right: 2px solid white;
+    width: 301px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .footer_columns_2 {
+    width: 301px;
+  }
+
+  .bottom_container {
+    width: 1312px;
+  }
+
+  .assinatura_vnda {
+    width: 1312px;
+  }
+
+  .payment_container {
+    display: flex;
+    height: 100%;
+    width: 638px;
+    flex-direction: row;
+  }
+
+  .pay_svg {
+    width: 32px;
+    height: 17px;
+  }
+}

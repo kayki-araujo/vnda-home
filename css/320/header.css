@@ -1,0 +1,6 @@
+@media screen and (max-width: 320px) {
+  .header_containerMobile {
+    width: 100%;
+    display: none;
+  }
+}

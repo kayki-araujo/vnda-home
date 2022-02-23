@@ -1,0 +1,113 @@
+@media screen and (max-width: 1024px) {
+  .newsletter_container {
+    display: flex;
+    justify-content: space-between;
+    width: 952px;
+    height: 104px;
+  }
+  
+  .logo_textContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  
+  .foot_logo_container {
+    width: 293px;
+    height: 216px;
+  }
+  
+  .footer_social_container {
+    justify-content: center;
+    height: 72px;
+    width: 952px;
+  }
+  
+  .newsletter_text {
+    margin-left: 7%;
+  }
+  
+  .newsletter_input_container {
+    display: flex;
+    width: 294px;
+    height: 104px;
+    flex-direction: column;
+  }
+  
+  .newsletter_input {
+    width: 294px;
+    height: 40px;
+  }
+  
+  .newsletter_button {
+    margin-top: 20px;
+    width: 294px;
+    height: 40px;
+  }
+  
+  .empresa {
+    width: 301px;
+  }
+  
+  .space-foot {
+    width: 301px;
+  }
+  
+  .footer_columns {
+    display: flex;
+    justify-content: space-between;
+    width: 952px;
+    height: 260px;
+  }
+  
+  .footer_columns_1 {
+    border-right: 2px solid white;
+    width: 220px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .footer_columns_2 {
+    width: 220px;
+    height: 260px;
+  }
+  
+  .bottom_container {
+    width: 952px;
+  }
+  
+  .assinatura_vnda {
+    width: 952px;
+  }
+  
+  .payment_container {
+    display: flex;
+    height: 100%;
+    width: 464px;
+    flex-direction: row;
+  }
+  
+  .pay_svg {
+    width: 32px;
+    height: 17px;
+  }
+  
+  .security_container {
+    width: 464px;
+    height: 45px;
+  }
+  
+  .shield {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .security_text p {
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+  }
+}

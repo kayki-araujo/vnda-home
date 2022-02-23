@@ -1,0 +1,152 @@
+@media screen and (max-width: 376px) {
+  .footer_containerMobile {
+    width: 100%;
+    height: 1400px;
+  }
+
+  .footer_spaceMobile {
+    position: relative;
+    width: 375px;
+    height: 80px;
+  }
+
+  .newsletter_containerMobile {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+  }
+
+  .newsletter_input_containerMobile {
+    width: 303px;
+    margin-top: 30px;
+  }
+
+  .newsletter_textMobile {
+    margin-bottom: 20px;
+  }
+
+  .newsletter_inputMobile {
+    height: 37px;
+    width: 303px;
+  }
+
+  .newsletter_ButtonMobile {
+    height: 37px;
+    width: 303px;
+  }
+
+  .logo_textContainerMobile {
+    width: 303px;
+    height: 93px;
+  }
+
+  .foot_logo_containerMobile {
+    width: 303px;
+    height: 93px;
+    position: absolute;
+  }
+
+  .foot_logoMobile {
+    width: 303px;
+    height: 93px;
+  }
+
+  .footer_social_containerMobile {
+    width: 375px;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 303px;
+  }
+
+  .empresaMobile {
+    width: 303px;
+  }
+
+  .socialMobile {
+    width: 303px;
+    margin-top: 30px;
+  }
+
+  .social_iconsMobile {
+    width: 32px;
+    height: 32px;
+  }
+
+  .footer_columnsMobile {
+    width: 375px;
+    margin-top: 50px;
+    align-items: center;
+  }
+
+  .footer_columns_1Mobile {
+    width: 303px;
+  }
+
+  .footer_columns_2Mobile {
+    width: 303px;
+    margin-top: 10px;
+  }
+
+  .columns_3container {
+    width: 303;
+  }
+
+  .bottom_containerMobile {
+    width: 303px;
+    display: flex;
+  }
+
+  .payment_container {
+    width: 303px;
+  }
+
+  .payment_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .payment_down {
+    display: flex;
+    flex-direction: row;
+    width: 248px;
+    height: 24px;
+    justify-content: space-between;
+  }
+
+  .payment_up {
+    display: flex;
+    flex-direction: row;
+    width: 248px;
+    justify-content: space-between;
+    height: 24px;
+  }
+
+  .payment_icon {
+    width: 44px;
+    height: 24px;
+  }
+
+  .pay_svgMobile {
+    width: 30px;
+    height: 19px;
+  }
+
+  .security_container {
+    width: 303px;
+  }
+
+  .assinatura_vndaMobile {
+    width: 375px;
+    margin-top: 60px;
+  }
+
+  .cnpjMobile {
+    width: 343px;
+    text-align: center;
+  }
+}

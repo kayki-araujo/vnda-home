@@ -1,0 +1,17 @@
+@media screen and (max-width: 376px) {
+  .header_container {
+    width: 100%;
+  }
+
+  .header_main {
+    width: 80%;
+  }
+
+  .user_icon {
+    display: none;
+  }
+
+  .search_icon {
+    display: none;
+  }
+}

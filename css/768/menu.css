@@ -1,0 +1,127 @@
+@media screen and (max-width: 769px) {
+  .img_menu {
+    display: block;
+    margin-right: 10%;
+  }
+
+  .menu_container li {
+    display: none;
+  }
+  .menu {
+    display: block;
+
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1;
+
+    height: 100vh;
+    width: 100%;
+    max-width: 384px;
+
+    transition: left var(--animation-time-menu);
+
+    background-color: var(--color-header);
+  }
+
+  .menu__checkbox:checked ~ .menu {
+    left: 0;
+  }
+
+  .menu__checkbox:checked ~ .menu__opacity {
+    display: block;
+  }
+
+  .menu__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu__header {
+    display: flex;
+    padding: 30px 27px;
+    align-items: center;
+  }
+
+  .menu__bars {
+    margin-right: 15px;
+  }
+
+  .menu__cart {
+    position: relative;
+  }
+
+  .menu__cart__badge {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+  }
+
+  .menu__categories {
+    flex: 1;
+    margin-right: 24px;
+  }
+
+  .categories__list .categories__list {
+    display: none;
+    font-weight: 400;
+  }
+
+  .categories__item {
+    margin-left: 16px;
+  }
+
+  .categories__title {
+    height: 50px;
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+  }
+
+  .categories__title {
+    height: 50px;
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+  }
+
+  .categories__icon {
+    margin-left: auto;
+  }
+
+  .categories__icon__last {
+    transform: rotate(-90deg);
+  }
+
+  .categories__item:hover > .categories__title > .categories__icon__top {
+    transform: rotate(180deg);
+    transition: transform 100ms;
+  }
+
+  .categories__item:hover > .categories__list {
+    display: block;
+  }
+
+  .menu__separator {
+    box-sizing: border-box;
+    height: 2px;
+    align-self: center;
+    width: 95%;
+    background-color: hsla(240, 43%, 97%, 1);
+  }
+
+  .menu__navigation {
+    padding: 16px;
+  }
+
+  .menu__navigation__item {
+    display: flex;
+    align-items: center;
+    font-size: 0.875rem;
+  }
+
+  .menu__navigation__icon {
+    margin-right: 16px;
+  }
+}

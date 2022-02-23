@@ -1,0 +1,125 @@
+@media (max-width: 768px) and (min-width: 767px) {
+
+  .changing-images{
+
+    height:403px;
+  }
+
+  .row{
+    height:114px;
+  }
+  .btn-round{
+    margin: 8px;
+  }
+
+  .information-container{
+    padding-top:80px;
+  }
+  
+  .row-button{
+    padding:0 36px;
+    padding-bottom: 80px;
+  }
+
+  .information h6{
+    font-size: 14px;
+  }
+  .for-carousel{
+    padding-top:0px;
+  }
+
+  .title-carousel{
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+  .space{
+    height:80px;
+  
+  }
+  .title-carousel h1{
+    font-size:20px;
+  }
+  #fourth{
+    display:flex;
+  }
+  .items{
+    margin:0 7px;
+  }
+  .img{
+    width:156px;
+    height:156px;
+  }
+  
+  .text-container{
+    padding-top: 8px;
+  }
+  
+  .text-container h1{
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .text-container h6{
+    padding-top:8px;
+    font-size: 14px;
+  }
+  
+  .text-container h2{
+    padding-top: 8px;
+    font-size: 14px;
+    padding-bottom: 36px;
+  }
+
+  .container-purple{
+    margin: 0 12px;
+  }
+  
+  .purple-background{
+    display: flex;
+    align-items: flex-end;
+  }
+  .sm{
+    width:336px;
+    height:336px;
+  }
+  
+  .container-text h1{
+    padding-top:36px;
+  }
+  .container-text h2{
+    font-size:24px;
+  }
+  .container-text h3{
+    padding-top: 8px;
+  }
+  .call-btn{
+    margin-bottom: 24px;
+  }
+  .xx{
+    height:644px;
+  }
+  .white-container{
+    margin-left:0px;
+    height:244px;
+    width:768px;
+  }
+  .mm{
+    height:338px;
+    width:338px;
+  }
+  .small-space{
+    height:40px
+  }
+  .margin{
+    margin-left: 34px;
+  }
+  .purple-btn{
+    width:116px;
+    height:40px;
+    font-size: 14px;
+  }
+  .text-cta h1{
+    font-size:20px;
+  }
+  
+}
